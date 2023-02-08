@@ -51,6 +51,7 @@
  * If discord ever prompt you to switch audio device, **don't switch!**
  * If you don't want to run the script every time you boot up your PC, copy the codes from the script (exclude the first line) and append it to your `/etc/pulse/default.pa`, make sure to remove the `pactl` prefix from each line.
  * There's `pavucontrol` which uses GTK, if you have display issue with `pavucontrol-qt` you might want to use that.
+ * If people can only hear when you talk disable noise supression.
 
  # Issues
 
